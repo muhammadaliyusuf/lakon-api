@@ -7,17 +7,17 @@ const {
 const routes = [
   {
     method: 'POST',
-    path: '/wayangs',
+    path: '/wayang',
     handler: addWayangHandler,
   },
   {
     method: 'GET',
-    path: '/wayangs',
+    path: '/wayang',
     handler: getAllWayangsHandler,
   },
   {
     method: 'GET',
-    path: '/wayangs/{wayangId}',
+    path: '/wayang/{wayangId}',
     handler: getWayangByIdHandler,
   },
 ];
