@@ -1,24 +1,24 @@
 const {
-  addBookHandler,
-  getAllBooksHandler,
-  getBookByIdHandler,
+  addWayangHandler,
+  getAllWayangsHandler,
+  getWayangByIdHandler,
 } = require('./handler');
 
 const routes = [
   {
     method: 'POST',
-    path: '/books',
-    handler: addBookHandler,
+    path: '/wayangs',
+    handler: addWayangHandler,
   },
   {
     method: 'GET',
-    path: '/books',
-    handler: getAllBooksHandler,
+    path: '/wayangs',
+    handler: getAllWayangsHandler,
   },
   {
     method: 'GET',
-    path: '/books/{bookId}',
-    handler: getBookByIdHandler,
+    path: '/wayangs/{wayangId}',
+    handler: getWayangByIdHandler,
   },
 ];
 
