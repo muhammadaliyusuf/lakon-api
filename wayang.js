@@ -1,5 +1,5 @@
 // array untuk menampung objek wayang
-const wayang = [];
+const wayangs = [];
 
 // module agar dapet digunakan file lain
-module.exports = wayang;
+module.exports = wayangs;
